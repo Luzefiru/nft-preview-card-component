@@ -33,3 +33,17 @@ body {
   background-color: var(--main-bg);
   color: var(--text);
 }
+
+main {
+  display: flex;
+  height: calc(100% - 15px);
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--card-bg);
+  width: 22%;
+  height: 65%;
+  border-radius: 14px;
+}
