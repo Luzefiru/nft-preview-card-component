@@ -107,3 +107,8 @@ main {
   align-items: center;
   gap: 6px;
 }
+
+.card-hr {
+  border: 1px solid var(--line);
+  margin-bottom: 1rem;
+}
