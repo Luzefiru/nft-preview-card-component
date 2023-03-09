@@ -65,8 +65,13 @@ main {
 }
 
 .card__desc__heading {
+  cursor: pointer;
   margin-bottom: 1.3rem;
   font-weight: 600;
+}
+
+.card__desc__heading:hover {
+  color: var(--text-highlight);
 }
 
 .card__desc__copy {
@@ -137,4 +142,8 @@ main {
   all: unset;
   cursor: pointer;
   color: var(--text);
+}
+
+.card__attribution__desc__creator-url:hover {
+  color: var(--text-highlight);
 }
