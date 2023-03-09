@@ -46,4 +46,14 @@ main {
   width: 22%;
   height: 65%;
   border-radius: 14px;
+  display: grid;
+  grid-template-rows: 4fr 2fr 1fr;
+  padding: 1.5rem;
+}
+
+.card__img {
+  background-image: url(images/image-equilibrium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 9px;
 }
