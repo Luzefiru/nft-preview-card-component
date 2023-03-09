@@ -58,6 +58,26 @@ main {
   background-size: cover;
   border-radius: 9px;
   background-position: center;
+  cursor: pointer;
+}
+
+.card__img:hover::after {
+  content: '';
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  height: 16.4rem;
+  width: 16.4rem;
+  border-radius: 9px;
+}
+
+.card__img:hover::before {
+  content: '';
+  position: absolute;
+  background: url(./images/icon-view.svg) no-repeat;
+  background-size: 50px 50px;
+  height: 16.4rem;
+  width: 16.4rem;
+  background-position: center;
 }
 
 .card__desc {
