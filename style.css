@@ -44,24 +44,24 @@ main {
 .card {
   background-color: var(--card-bg);
   width: 310px;
-  height: 550px;
+  height: 535px;
   border-radius: 14px;
   display: grid;
   grid-template-rows: 4fr 2fr 1fr;
   padding: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .card__img {
   background-image: url(images/image-equilibrium.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 9px;
   background-position: center;
 }
 
 .card__desc {
   margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
 }
 
 .card__desc__heading {
@@ -110,5 +110,31 @@ main {
 
 .card-hr {
   border: 1px solid var(--line);
-  margin-bottom: 1rem;
+  margin-top: 1.3rem;
+}
+
+.card__attribution {
+  display: flex;
+  align-items: center;
+}
+
+.card__attribution__creator-img {
+  background: url(./images/image-avatar.png);
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  border: 1px solid var(--text);
+  margin-right: 1rem;
+}
+
+.card__attribution__desc {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+.card__attribution__desc__creator-url {
+  all: unset;
+  cursor: pointer;
+  color: var(--text);
 }
