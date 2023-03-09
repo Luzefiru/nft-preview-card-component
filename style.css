@@ -50,6 +50,7 @@ main {
   grid-template-rows: 4fr 2fr 1fr;
   padding: 1.5rem;
   padding-bottom: 0.5rem;
+  box-shadow: 0 0 48px rgba(6, 12, 21, 0.2);
 }
 
 .card__img {
